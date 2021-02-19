@@ -66,7 +66,7 @@ local user_access =
 {
   '00_namespace': namespace,
   network_access: network_access,
-  user_access: user_access,
+  [if std.length(params.access.service_account_refs) > 0 then 'user_access']: user_access,
   proxy_rbac: template.rbac,
 }
 + template.manifests
