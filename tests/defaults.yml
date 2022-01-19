@@ -1,0 +1,2 @@
+parameters:
+  openshift_prometheus_proxy: {}

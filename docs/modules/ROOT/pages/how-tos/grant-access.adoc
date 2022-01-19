@@ -17,7 +17,7 @@ On such a cluster, even though the proxy service is accessible from all namespac
 
 == RBAC rules for client service accounts
 
-By default, clients cannot access Prometheus through the proxy, as the proxy checks whether client tokens have been granted access.
+By default, clients can't access Prometheus through the proxy, as the proxy checks whether client tokens have been granted access.
 
 Client service accounts are granted access to the proxy by the component if they're listed in `parameters.openshift_prometheus_proxy.access.service_account_refs`:
 
