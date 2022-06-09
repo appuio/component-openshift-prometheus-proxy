@@ -1,6 +1,2 @@
 :global:
   componentName: openshift-prometheus-proxy
-
-docs/antora.yml:
-  name: openshift-prometheus-proxy
-  title: openshift-prometheus-proxy
