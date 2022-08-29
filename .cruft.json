@@ -1,0 +1,21 @@
+{
+  "template": "https://github.com/projectsyn/commodore-component-template.git",
+  "commit": "e6c4fd69190db1ad12e941d578b9423d0e2f993c",
+  "checkout": "main",
+  "context": {
+    "cookiecutter": {
+      "name": "openshift-prometheus-proxy",
+      "slug": "openshift-prometheus-proxy",
+      "parameter_key": "openshift_prometheus_proxy",
+      "test_cases": "defaults",
+      "add_golden": "n",
+      "add_matrix": "n",
+      "add_go_unit": "n",
+      "github_owner": "appuio",
+      "github_name": "component-openshift-prometheus-proxy",
+      "github_url": "https://github.com/appuio/component-openshift-prometheus-proxy",
+      "_template": "https://github.com/projectsyn/commodore-component-template.git"
+    }
+  },
+  "directory": null
+}
