@@ -1,3 +1,8 @@
+# ⚠️ Repo Archive Notice
+
+As of Oct 31, 2022, this component will no longer be updated.
+Consider using component [prom-label-proxy](https://github.com/projectsyn/component-prom-label-proxy) instead.
+
 # Commodore Component: openshift-prometheus-proxy
 
 This is a [Commodore][commodore] Component for openshift-prometheus-proxy.
