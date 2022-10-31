@@ -1,5 +1,12 @@
 parameters:
   openshift_prometheus_proxy:
+    =_metadata:
+      deprecated: true
+      replaced_by: prom-label-proxy
+      deprecation_notice: >-
+        This component is deprecated.
+        Consider using `prom-label-proxy` instead.
+        See https://github.com/projectsyn/component-prom-label-proxy.
     namespace: appuio-prometheus-proxy
     template_parameters:
       OPENSHIFT_PROMETHEUS_PROXY_UPSTREAM: https://prometheus-k8s.openshift-monitoring.svc:9091
